@@ -9,40 +9,20 @@ Pod::Spec.new do |s|
 
    s.homepage     = "https://github.com/TahaElsheikh/TestPod"
 
-
-
     s.license      = s.license  = { :type => "MIT" , :file => "LICENSE" }
-
 
 
   s.author             = { "TahaElsheikh" => "tahaelsheikh22@gmail.com" }
 
-  #
-
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
-
-
-
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
     s.source            = {
         :git => 'https://github.com/TahaElsheikh/TestPod.git',
         :tag => "#{s.version}"
     }
-#s.source       = { :git => "https://github.com/TahaElsheikh/TestPod.git", :tag => "#{s.version}" }
 
 
 
-    s.source_files = "TestPod/**/*.{m}"
+    s.source_files = "TestPod/TestPodTests/TestPodTests.m"
 
   # s.public_header_files = "Classes/**/*.h"
-
-
-
 
 end
