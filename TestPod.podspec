@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   #
     s.source            = {
         :git => 'https://github.com/TahaElsheikh/TestPod.git',
-        :tag => #{s.version}
+        :tag => "#{s.version}"
     }
 #s.source       = { :git => "https://github.com/TahaElsheikh/TestPod.git", :tag => "#{s.version}" }
 
