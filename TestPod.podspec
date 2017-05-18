@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
 
 
-    s.source_files = "TestPod/*"
+    s.source_files = "TestPod/**/*.{h}"
 
   # s.public_header_files = "Classes/**/*.h"
 
