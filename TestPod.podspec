@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #
     s.source            = {
         :git => 'https://github.com/TahaElsheikh/TestPod.git',
-        :tag => s.version.to_s
+        :tag => #{s.version}
     }
 #s.source       = { :git => "https://github.com/TahaElsheikh/TestPod.git", :tag => "#{s.version}" }
 
@@ -94,7 +94,6 @@ Pod::Spec.new do |s|
   #
 
     s.source_files = "TestPod/TestPodTests/*.{m}"
-# s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
