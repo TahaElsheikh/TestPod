@@ -1,0 +1,36 @@
+PODS:
+  - BGTableViewRowActionWithImage (0.4.1)
+  - FSCalendar (2.7.7)
+  - GSKStretchyHeaderView (1.0.0)
+  - KAProgressLabel (3.3.2)
+  - NSAttributedString+CCLFormat (1.2.0)
+  - UIColor+Hex (1.0.1):
+    - UIColor+Hex/NSColor (= 1.0.1)
+    - UIColor+Hex/UIColor (= 1.0.1)
+  - UIColor+Hex/UIColor (1.0.1)
+  - UICountingLabel (1.4.0)
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - BGTableViewRowActionWithImage
+  - FSCalendar
+  - GSKStretchyHeaderView
+  - KAProgressLabel
+  - NSAttributedString+CCLFormat
+  - UIColor+Hex
+  - UICountingLabel
+  - WYPopoverController (~> 0.3.9)
+
+SPEC CHECKSUMS:
+  BGTableViewRowActionWithImage: 6a0731a84662735f5ec28dc253e3fba6a73ebc5b
+  FSCalendar: 8bda3534e8590b87124af9a236887314e0359a27
+  GSKStretchyHeaderView: daba8f035eaade6326d05ee2a382be714bb019c0
+  KAProgressLabel: 95dd072d16bb483c0f58012d0e5466a334091af8
+  NSAttributedString+CCLFormat: 46d1e36b72b7ab0e093323705188818b21ba9763
+  UIColor+Hex: 9fee91bb8e19f17dd40a79ae1e98949a6a84489d
+  UICountingLabel: ed5ce5b6d5ef278ff40d99cfa49577a30ab0c87b
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+PODFILE CHECKSUM: 67123d846834c41dffa7e9629c90de6d29292114
+
+COCOAPODS: 1.2.1
